@@ -1,0 +1,75 @@
+body{
+   background-color:darkorchid;
+}
+
+#admin-box{
+background-color: blue;
+width: 500px ;
+border: 5px solid red;
+margin: auto;
+padding:30px ;
+border-radius: 20px;
+}
+h1{
+    width:500px;
+    font-size: 70px;
+    color: red;
+   
+}
+img{
+    width: 160px;
+
+}
+label{
+   font-size: 40px;
+   padding:10px;
+
+}
+label,input{
+display: block;
+color: red;
+margin: auto;
+}
+input{
+    background-color: black;
+    padding: 15px;
+    width: 220px;
+    border: 5PX solid white;
+border-radius: 5PX;
+}
+input:hover{
+
+    background-color:red;
+}
+input[type="submit"]{
+    width:100PX ;
+    padding:10PX ;
+    margin:15PX auto
+     ;
+     color: aqua;
+}
+input[type="submit"]:hover{
+background-color:red;
+}
+P{
+color: RED;
+text-transform: capitalize;
+font-size: 30PX;
+width: 500px;
+
+}
+P a{ text-decoration: none;
+    color:white;
+    
+   
+}
+::placeholder{ 
+    color: aqua;
+    font-size: 20px;
+}
+
+   
+
+
+
+
